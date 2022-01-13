@@ -165,9 +165,10 @@ header {
 footer {
   background: #E2E2E2;
   margin-top: 40px;
+  display: grid;
 }
 .row.custom {
-  display: flex;
+  /* display: flex; */
 }
 
 .blog img{
@@ -176,6 +177,7 @@ footer {
 
 .pic {
   width: 53%;
+  float: left;
  
 }
 .blog {
@@ -210,7 +212,8 @@ footer {
 
 
 .company {
-  width: 17%;
+  width: 28%;
+  float: left;
 }
 .company address {
   margin-top: 42px;
